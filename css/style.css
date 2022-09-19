@@ -22,6 +22,7 @@ nav {
 }
 .row {
   margin-top: 15%;
+  margin-bottom: 15%;
 }
 h1 {
   font-size: 22;
@@ -46,4 +47,8 @@ button {
 .contact-me {
   background-color: rgb(167, 215, 197);
   border: none;
+}
+
+img {
+  max-width: 200px;
 }
