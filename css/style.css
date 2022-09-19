@@ -11,6 +11,7 @@ body {
 nav {
   background-color: rgb(244, 249, 244) !important;
 }
+
 .nav-link {
   color: rgb(92, 141, 137) !important;
 }
@@ -20,11 +21,18 @@ nav {
 .social-media {
   margin-left: 130%;
 }
-.row {
+.margin {
   margin-top: 15%;
   margin-bottom: 15%;
 }
+
 h1 {
+  font-size: 22;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+h2 {
   font-size: 22;
   text-align: center;
   margin-bottom: 20px;
