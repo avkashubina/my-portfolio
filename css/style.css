@@ -61,7 +61,18 @@ button {
   display: block;
 }
 img {
-  max-width: 200px;
+  max-width: 300px;
+  margin-top: 50px;
+}
+
+.work-description {
+  text-align: center;
+}
+
+form,
+.contact-info {
+  position: relative;
+  top: 30%;
 }
 
 form {
