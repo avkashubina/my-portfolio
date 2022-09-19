@@ -1,0 +1,49 @@
+* {
+  font-family: "Nunito", "Montserrat Alternates", sans-serif;
+  color: rgb(92, 141, 137);
+}
+html,
+body {
+  background-color: rgb(244, 249, 244);
+  width: 90%;
+  margin: auto;
+}
+nav {
+  background-color: rgb(244, 249, 244) !important;
+}
+.nav-link {
+  color: rgb(92, 141, 137) !important;
+}
+.navbar-nav {
+  margin-left: 25%;
+}
+.social-media {
+  margin-left: 130%;
+}
+.row {
+  margin-top: 15%;
+}
+h1 {
+  font-size: 22;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+p {
+  color: rgb(116, 180, 155);
+  font-size: 20px;
+}
+button {
+  margin-left: 40%;
+  margin-top: 25px;
+}
+.content {
+  display: block;
+}
+.art {
+  display: block;
+}
+.contact-me {
+  background-color: rgb(167, 215, 197);
+  border: none;
+}
