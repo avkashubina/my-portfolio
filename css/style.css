@@ -37,6 +37,46 @@ h1 {
   margin-bottom: 20px;
   font-weight: 700;
 }
+
+#figures {
+  margin-top: 50px;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 40px solid rgb(92, 141, 137);
+  margin: auto;
+  position: relative;
+  top: -50px;
+  animation-name: cursor;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes cursor {
+  0% {
+    top: -55px;
+  }
+  100% {
+    top: -48px;
+  }
+}
+
+.ramka {
+  margin: auto;
+  display: block;
+  height: 70px;
+  width: 40px;
+
+  border: rgb(92, 141, 137) solid 4px;
+  border-radius: 16px;
+}
+
 h2 {
   font-size: 22;
   text-align: center;
@@ -50,10 +90,12 @@ p {
 button {
   margin-left: 40%;
   margin-top: 25px;
+  padding: 5px 10px;
   background-color: rgb(167, 215, 197);
   border: none;
   max-width: 100px;
 }
+
 .content {
   display: block;
 }
