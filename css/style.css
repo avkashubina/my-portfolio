@@ -8,6 +8,7 @@ body {
   width: 90%;
   margin: auto;
 }
+
 nav {
   background-color: rgb(244, 249, 244) !important;
 }
@@ -38,8 +39,20 @@ h1 {
   font-weight: 700;
 }
 
-#figures {
-  margin-top: 50px;
+.a-button {
+  padding: 5px 10px;
+  background-color: rgb(167, 215, 197);
+  border: none;
+  max-width: 100px;
+}
+
+.contact-button {
+  margin-left: 40%;
+  margin-top: 25px;
+}
+
+.visit-website {
+  margin-top: 30px;
 }
 
 #triangle-down {
@@ -102,7 +115,7 @@ button {
 .art {
   display: block;
 }
-img {
+.my-work {
   max-width: 300px;
   margin-top: 50px;
 }
