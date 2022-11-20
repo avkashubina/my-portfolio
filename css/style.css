@@ -1,3 +1,7 @@
+html {
+  --iwidth: 25vw;
+}
+
 * {
   font-family: "Nunito", "Montserrat Alternates", sans-serif;
   color: rgb(92, 141, 137);
@@ -153,16 +157,16 @@ button {
 }
 
 .my-work {
-  width: 25vw /*300px*/;
-  height: calc(10 / 16 * 25vw);
+  width: var(--iwidth);
+  height: calc(10 / 16 * var(--iwidth));
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .imagealt {
-  width: 25vw;
-  height: calc(10 / 16 * 25vw);
+  width: var(--iwidth);
+  height: calc(10 / 16 * var(--iwidth));
   margin-top: 50px;
   position: relative;
 }
@@ -218,11 +222,25 @@ input {
   margin-top: 20%;
 }
 
-@media (max-width: 753px) {
+@media (max-width: 1400px) {
+  html {
+    --iwidth: 80vw;
+  }
+
+  .navbar-toggler {
+    margin-top: 0;
+  }
+
   .imagealt a.a-button {
     display: block;
-    margin-top: 50%;
+    top: auto;
+    bottom: calc(0px - 20px - 1em);
   }
+
+  .imagealt:hover img {
+    filter: none;
+  }
+
   .frog-big {
     padding-left: 15%;
     margin-top: 10%;
