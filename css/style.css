@@ -222,7 +222,7 @@ input {
   margin-top: 20%;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1100px) {
   html {
     --iwidth: 80vw;
   }
