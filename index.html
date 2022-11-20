@@ -46,7 +46,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html#home"
                 >Home</a
               >
               <a class="nav-link" href="#about-me">About</a>
@@ -69,104 +72,125 @@
         </div>
       </nav>
     </div>
-    <div class="welcome-page margin">
-      <div class="row">
-        <div class="col-7">
-          <h1>Hi, I’m Anna, a Front-end developer</h1>
-          <p>
-            By day I write code. By night I sleep but all my dreams aboute code.
-            I'm always open to learning about new opportunities. Code simple
-            things, and I love what I do!
-          </p>
-          <p>
+
+    <section id="home" class="welcome-page margin">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h1>Hi, I’m Anna, a Front-end developer</h1>
+            <p class="hello-text">
+              By day I write code. By night I sleep but all my dreams aboute
+              code. I'm always open to learning about new opportunities. Code
+              simple things and I love what I do!
+            </p>
             <a class="a-button contact-button" href="#contact-me">Contact me</a>
-          </p>
+          </div>
+          <div class="col-md-4 frog-big">
+            <img src="img/FrogVer1.png" alt="frog" width="300px" />
+          </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-4">
-          <img src="img/FrogVer1.png" alt="frog" width="300px" />
+        <div id="figures">
+          <div class="ramka"></div>
+          <div id="triangle-down"></div>
         </div>
       </div>
-      <div id="figures">
-        <div class="ramka"></div>
-        <div id="triangle-down"></div>
-      </div>
-    </div>
+    </section>
 
-    <div class="about-me margin">
-      <h2 id="about-me">About me</h2>
-      <div class="row">
-        <div class="col-5"><p>Here will be pic too!</p></div>
-        <div class="col-7">
-          <h3>
-            I’m Anna, a Front-end developer who work and live in beautiful
-            Stockholm, Sweden.
-          </h3>
-          <p>Well-organised, always respect deadlines,</p>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum
-          </p>
-          <p>
-            Out of the work you’ll find me petting all the cats, doing sculpture
-            or watching horrors.
-          </p>
+    <section id="about-me" class="about-me margin">
+      <h2>About me</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="my-photo" src="img/my-photo.png" alt="" width="450px" />
+          </div>
+          <div class="col-md-7">
+            <h3>
+              I’m Anna, a Front-end developer who work and live in beautiful
+              Stockholm, Sweden.
+            </h3>
+            <p>Well-organised, always respect deadlines,</p>
+            <p>
+              Like work with positive people. Also always positive because being
+              sad it's boring :)
+            </p>
+            <p>
+              Out of the work you’ll find me petting all the cats, doing
+              sculpture or watching horrors.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="works margin">
-      <h2 id="my-work">My Recent Work</h2>
+    <section id="my-work" class="margin">
+      <h2>My Recent Work</h2>
       <p class="work-description">
         Here are a few past projects I've worked on.
       </p>
-      <div class="works-n-links">
-        <img class="my-work" src="img/weather.png" alt="" />
-
-        <p class="visit-website">
-          <a
-            class="a-button"
-            href="https://famous-panda-3b685b.netlify.app/"
-            target="_blank"
-            ><span>Visit Website</span><span class="icon"></span
-          ></a>
-        </p>
-      </div>
-    </div>
-
-    <div class="contact-page margin">
-      <h2 id="contact-me">Let’s work together!</h2>
-
-      <div class="row">
-        <div class="col-6">
-          <form>
-            <input type="text" name="" id="" placeholder="Name" />
-            <input type="email" name="" id="" placeholder="E-mail" />
-            <textarea
-              name="Message"
-              id="Message"
-              rows="5"
-              cols="45"
-              maxlength="5000"
-              placeholder="Enter your message here"
-            ></textarea>
-            <button>Submit</button>
-          </form>
-        </div>
-        <div class="col-6">
-          <p class="contact-info">
-            Feel free to reach out to me any time. I prefer to talk over email.
-          </p>
-
-          <p class="contact-info">
-            If you have other request or question, don’t hesitate to use the
-            form.
-          </p>
+      <div class="container">
+        <div class="row">
+          <div class="imagealt works-n-links col-md-4">
+            <img class="my-work" src="img/hostcon.png" alt="" />
+            <a
+              class="a-button"
+              href="https://hostcon.clubcosmos.net/"
+              target="_blank"
+              ><span>Visit Website</span><span class="icon"></span
+            ></a>
+          </div>
+          <div class="imagealt works-n-links col-md-4">
+            <img class="my-work" src="img/weather.png" alt="" />
+            <a
+              class="a-button"
+              href="https://famous-panda-3b685b.netlify.app/"
+              target="_blank"
+              ><span>Visit Website</span><span class="icon"></span
+            ></a>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section id="contact-me" class="contact-page margin">
+      <h2 class="title-work-together">Let’s work together!</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <form method="POST" action="https://api.web3forms.com/submit">
+              <input
+                type="hidden"
+                name="access_key"
+                value="0f434435-7dc8-4943-a0d3-f45ed8cc470a"
+              />
+              <input type="hidden" name="from_name" value="MyPage - Webform" />
+              <input type="text" name="name" id="" placeholder="Name" />
+              <input type="email" name="email" id="" placeholder="E-mail" />
+              <textarea
+                name="message"
+                id="message"
+                rows="5"
+                cols="45"
+                maxlength="5000"
+                placeholder="Enter your message here"
+                required
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <p class="contact-info">
+              Feel free to reach out to me any time. I prefer to talk over
+              email.
+            </p>
+            <p class="contact-info">
+              If you have other request or question, don’t hesitate to use the
+              form.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <p class="footer">
         Coded by Anna Viktoriia Kashubina with
